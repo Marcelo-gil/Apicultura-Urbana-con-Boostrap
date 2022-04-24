@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: linear-gradient(180deg, #ff7b00, yellow);
+    position: sticky;
+      top:0;
+      height: 150 px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.header__imagen{
+width: 100px;
+border: solid 1px;
+}
+.footer{
+    position: fixed;
+    border-top: 1px solid #0e0b0c;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(180deg, yellow, #ff7b00);
+    color:  #0e0b0c;
+    text-align: center;
+  } 
+  .mi-logo{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .d-block{
+    height: 550px;
+  }
+  .d-block img{
+    height: 550px;
+  }
+  
