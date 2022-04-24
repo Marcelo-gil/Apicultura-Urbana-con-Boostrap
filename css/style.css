@@ -78,3 +78,6 @@ border-radius: 6px;
     font-size: 15px;
     padding: 10px;
 }
+.carousel-item{
+    height: 150;
+}
