@@ -36,4 +36,36 @@ border-radius: 6px;
   .d-block img{
     height: 550px;
   }
+  .imagenVideo{
+    width: 400px;
+    height: 200px; 
+    margin-left: 4rem;
+  }
+  .imagen {
+    width: 400px; 
+    height: 200px;
+       /* "none=ubica imagen en el centro" "cover=recorta la imagen para que entre y hace sum" "contain=parecido al none" "scale-down=achica"*/
+    object-fit: cover;
+    object-position: center;
+    margin: 40px auto;
+    margin-left: 4rem;
+    /*opacity: 0.5;*/
+  }
+  .imagen {
+    width: 400px; 
+    height: 200px;
+       /* "none=ubica imagen en el centro" "cover=recorta la imagen para que entre y hace sum" "contain=parecido al none" "scale-down=achica"*/
+    object-fit: cover;
+    object-position: center;
+    margin: 40px auto;
+    margin-left: 4rem;
+    /*opacity: 0.5;*/
+  }
+  .imagenPequeña{
+    width: 160px; 
+    height: 240px;
+    margin-left: 4.5rem;
+    object-fit: cover;
+    object-position: center;
+  }
   
