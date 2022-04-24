@@ -12,7 +12,7 @@
 }
 .header__imagen{
 width: 100px;
-border: solid 1px;
+border-radius: 6px;
 }
 .footer{
     position: fixed;
