@@ -58,6 +58,9 @@ border-radius: 6px;
     object-fit: cover;
     object-position: center;
  }
+ .textofoto{
+   margin-left: 4.5rem;
+ }
  .bigicon{
     font-size: 35px;
     color: #36A0FF;
@@ -89,4 +92,7 @@ border-radius: 6px;
     height: 180px; 
 
    }
+   .textofoto{
+      margin-left: 8rem;
+    }
 }
