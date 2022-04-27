@@ -10,9 +10,18 @@
     font-size: 15px;
     text-transform: uppercase;
 }
+.header__menu li{
+   transition:  transform 1s ;
+}
+.header__menu li:hover{
+   transform: scale(1.5);
+ }
 .header__imagen{
 width: 100px;
 border-radius: 6px;
+}
+.nav-item{
+   font-size: 80%;
 }
 .footer{
     position: fixed;
@@ -29,9 +38,10 @@ border-radius: 6px;
     height: 4rem;
     object-fit: cover;
     object-position: center;
+    border-radius: 6px
 }
 .d-block{
-    height: 550px;
+    height: 500px;
 }
 .d-block img{
     height: 550px;
@@ -90,9 +100,11 @@ border-radius: 6px;
     margin-left: 2rem;
     width: 360px;
     height: 180px; 
-
    }
-   .textofoto{
-      margin-left: 8rem;
+   .header__menu li{
+      transition: none;
+   }
+   .header__menu li:hover{
+      transform: none;
     }
 }
