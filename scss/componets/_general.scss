@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: $gradien;
+    position: sticky;
+    top:0;
+    height: 150 px;
+    font-size: 15px;
+    text-transform: uppercase;
+    &__menu li{
+        transition:  transform 1s ;
+        &:hover{
+            transform:scale(1.5);
+    }
+    }
+    &__imagen{
+        width: 100px;
+        border-radius: 6px;
+    }
+}
+.footer{
+    position: fixed;
+    border-top: 1px solid $colorfooter;
+    left: 0;
+    bottom: 0;
+    width: $mediaWidth;
+    background-image: $degradien;
+    color:  $colorfooter;
+    text-align: center;
+} 
+.mi-logo{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px
+}
+.nav-item{
+    font-size: ($mediaZize)-(20%);
+ }
+ .d-block{
+    height: 500px;
+    & img{
+        height: 550px;
+    }
+}

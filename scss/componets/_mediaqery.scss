@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .header__menu li{
+        transition: none;
+        &:hover{
+            transform: none;
+        }
+    }
+    .imagen {
+        /* margin: 2rem; */
+        margin-left: 8rem;
+    }
+    .imagenPequeña{
+        margin-left: 8rem;
+    }
+    .imagenVideo{
+      margin-left: 2rem;
+      width: 360px;
+      height: 180px; 
+    }
+}
