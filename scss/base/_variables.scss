@@ -1,9 +1,28 @@
-$color-principal: #ff7b00;  
-$color-secundario: yellow;
-$gradien: linear-gradient(180deg, $color-principal, $color-secundario);
-$degradien: linear-gradient(180deg, $color-secundario, $color-principal);
-$colorfooter: #0e0b0c;
-$colorAzul: #36A0FF;
+$colores:(
+    color-principal: #ff7b00,
+    color-secundario: yellow,
+    color-terciario: #0e0b0c,
+    color-azul: #36A0FF,
+);
+// $color-principal: #ff7b00;  
+// $color-secundario: yellow;
+// $colorfooter: #0e0b0c;
+// $colorAzul: #36A0FF;
+$gradien: linear-gradient(180deg, map-get($colores,color-principal), map-get($colores,color-secundario));
+$degradien: linear-gradient(180deg, map-get($colores,color-secundario), map-get($colores,color-principal));
 $mediaWidth: 100%;
 $mediaheight: 100%;
 $mediaZize: 100%;
+%foto-center {
+    text-align: center;
+};
+%flex-footer {
+    position: fixed;
+    text-align: center;
+};
+@mixin barra_contacto($bgi_color) {
+    background-image: $gradien;
+    color: $bgi_color;
+    font-size: 15px;
+    padding: 10px;
+}
