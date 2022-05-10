@@ -1,7 +1,3 @@
-@charset "UTF-8";
-.d {
-  text-align: center; }
-
 .footer {
   position: fixed;
   text-align: center; }
@@ -51,8 +47,14 @@
 .imgAjuste {
   object-fit: contain; }
 
+.body_bg {
+  background-image: none; }
+
 .carousel-item {
   height: 150; }
+
+.fotoapi {
+  text-align: center; }
 
 .imagenVideo {
   width: 400px;
@@ -68,7 +70,7 @@
   height: 240px;
   margin-left: 4.5rem;
   object-fit: cover;
-  object-position: center; }
+  object-position: 50% 50%; }
 
 .contacto {
   background-image: linear-gradient(180deg, #ff7b00, yellow);
@@ -88,9 +90,17 @@
   .imagen {
     /* margin: 2rem; */
     margin-left: 8rem; }
-  .imagenPequeña {
-    margin-left: 8rem; }
+  .imagenPequenia {
+    margin-left: 0rem; }
   .imagenVideo {
-    margin-left: 2rem;
+    margin-left: 0rem;
     width: 360px;
-    height: 180px; } }
+    height: 180px; }
+  .imagenVideo1 {
+    margin-left: 0rem;
+    width: 360px;
+    height: 180px; }
+  .fotoapi {
+    margin-left: 0rem; }
+  .body_bg {
+    background-image: url("../imagenes/papelTapiz.jpg"); } }

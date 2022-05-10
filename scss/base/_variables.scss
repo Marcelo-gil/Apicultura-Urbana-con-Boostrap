@@ -13,9 +13,7 @@ $degradien: linear-gradient(180deg, map-get($colores,color-secundario), map-get(
 $mediaWidth: 100%;
 $mediaheight: 100%;
 $mediaZize: 100%;
-%foto-center {
-    text-align: center;
-};
+
 %flex-footer {
     position: fixed;
     text-align: center;
@@ -26,3 +24,6 @@ $mediaZize: 100%;
     font-size: 15px;
     padding: 10px;
 }
+// %foto-center {
+//    text-align: center;
+// }; 

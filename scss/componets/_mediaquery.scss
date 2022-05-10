@@ -9,12 +9,23 @@
         /* margin: 2rem; */
         margin-left: 8rem;
     }
-    .imagenPequeña{
-        margin-left: 8rem;
+    .imagenPequenia{
+        margin-left: 0rem;
     }
     .imagenVideo{
-      margin-left: 2rem;
+      margin-left: 0rem;
       width: 360px;
       height: 180px; 
+    }
+    .imagenVideo1{
+        margin-left: 0rem;
+        width: 360px;
+        height: 180px; 
+      }
+    .fotoapi{
+        margin-left: 0rem;
+    }
+    .body_bg{
+        background-image: url("../imagenes/papelTapiz.jpg");
     }
 }
