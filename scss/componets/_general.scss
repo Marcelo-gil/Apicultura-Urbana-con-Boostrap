@@ -21,8 +21,6 @@
     }
 }
 .footer{
-    // position: fixed;
-    // text-align: center;
     @extend %flex-footer;
     border-top: 1px solid map-get($colores,color-terciario);
     left: 0;
@@ -52,4 +50,20 @@
 }
 .body_bg{
     background-image: none;
+}
+.miInstagram{
+    background-color: map-get($colores, color-instagram);
+    border-color: map-get($colores, color-instagram);
+    &:hover{
+        background-color: darken(map-get($colores, color-instagram), 10%);
+        border-color: darken(map-get($colores, color-instagram), 10%);
+    }
+}
+.miLinkedin{
+    background-color: map-get($colores, color-Linkedin);
+    border-color: map-get($colores, color-Linkedin);
+    &:hover{
+        border-color: darken(map-get($colores, color-Linkedin), 10%);
+        background-color: darken(map-get($colores, color-Linkedin), 10%);
+    }
 }
