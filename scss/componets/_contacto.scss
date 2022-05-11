@@ -1,9 +1,5 @@
 .contacto{
     @include barra_contacto(map-get($colores,color-azul));
-    // background-image: $gradien;
-    // color: map-get($colores,color-azul);
-    // font-size: 15px;
-    // padding: 10px;
 }
 .mapa{
     width: $mediaWidth;

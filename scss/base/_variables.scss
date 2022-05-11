@@ -6,16 +6,11 @@ $colores:(
     color-instagram: #ac2bac,
     color-Linkedin: #0082ca,
 );
-// $color-principal: #ff7b00;  
-// $color-secundario: yellow;
-// $colorfooter: #0e0b0c;
-// $colorAzul: #36A0FF;
 $gradien: linear-gradient(180deg, map-get($colores,color-principal), map-get($colores,color-secundario));
 $degradien: linear-gradient(180deg, map-get($colores,color-secundario), map-get($colores,color-principal));
 $mediaWidth: 100%;
 $mediaheight: 100%;
 $mediaZize: 100%;
-
 %flex-footer {
     position: fixed;
     text-align: center;
@@ -26,6 +21,3 @@ $mediaZize: 100%;
     font-size: 15px;
     padding: 10px;
 }
-// %foto-center {
-//    text-align: center;
-// }; 
