@@ -64,6 +64,10 @@
     border-color: #006197;
     background-color: #006197; }
 
+.firma {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic; }
+
 .carousel-item {
   height: 150; }
 
