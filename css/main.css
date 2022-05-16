@@ -1,7 +1,3 @@
-.footer {
-  position: fixed;
-  text-align: center; }
-
 * {
   padding: 0;
   margin: 0; }
@@ -21,13 +17,11 @@
     width: 100px;
     border-radius: 6px; }
 
-.footer {
-  border-top: 1px solid #0e0b0c;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-image: linear-gradient(180deg, yellow, #ff7b00);
-  color: #0e0b0c; }
+.copyright {
+  background-image: linear-gradient(180deg, #ff7b00, yellow);
+  color: #0e0b0c;
+  font-size: 15px;
+  padding: 10px; }
 
 .mi-logo {
   width: 4rem;

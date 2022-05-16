@@ -21,15 +21,9 @@
         border-radius: 6px;
     }
 }
-.footer{
-    @extend %flex-footer;
-    border-top: 1px solid map-get($colores,color-terciario);
-    left: 0;
-    bottom: 0;
-    width: $mediaWidth;
-    background-image: $degradien;
-    color:  map-get($colores,color-terciario);
-} 
+.copyright{
+    @include barra_contacto(map-get($colores,color-terciario));
+}
 .mi-logo{
     width: 4rem;
     height: 4rem;
