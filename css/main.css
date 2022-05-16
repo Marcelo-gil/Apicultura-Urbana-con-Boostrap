@@ -48,7 +48,7 @@
   object-fit: contain; }
 
 .body_bg {
-  background-image: none; }
+  background-image: url("../imagenes/textura-panal-abejas_1127-373.webp"); }
 
 .miInstagram {
   background-color: #ac2bac;
@@ -70,6 +70,9 @@
 
 .carousel-item {
   height: 150; }
+
+.carouselFondo {
+  background-image: none; }
 
 .fotoapi {
   text-align: center; }
@@ -120,7 +123,9 @@
   .fotoapi {
     margin-left: 0rem; }
   .body_bg {
-    background-image: url("../imagenes/papelTapiz.jpg"); } }
+    background-image: url("../imagenes/papelTapiz.jpg"); }
+  .carouselFondo {
+    background-image: none; } }
 
 .img404 {
   background-image: url("../imagenes/imagen404.jpg");
