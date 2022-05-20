@@ -60,7 +60,8 @@
 
 .firma {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  color: #ff7b00; }
 
 .img404 {
   background-image: url("../imagenes/imagen404.jpg");

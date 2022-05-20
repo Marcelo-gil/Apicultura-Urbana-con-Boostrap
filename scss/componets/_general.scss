@@ -65,6 +65,7 @@
 .firma{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-style: italic;
+    color: map-get($colores,color-principal);
 }
 .img404 {
     background-image: url("../imagenes/imagen404.jpg");
