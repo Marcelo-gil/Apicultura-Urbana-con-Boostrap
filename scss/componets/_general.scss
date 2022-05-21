@@ -45,7 +45,7 @@ h1 {
     }
   
     to {
-      margin-left: 0%;
+      margin-left: -100%;
       width: 100%;
     }
   }
@@ -72,7 +72,7 @@ h1 {
     } */
 }
 .logomini{
-    animation: 8s  alternate slideinmini;
+    animation: 6s infinite alternate slideinmini;
     text-align: left;
 }
 .copyright{

@@ -36,7 +36,7 @@ h1 {
     margin-left: 100%;
     width: 300%; }
   to {
-    margin-left: 0%;
+    margin-left: -100%;
     width: 100%; } }
 
 .header {
@@ -58,7 +58,7 @@ h1 {
     border-radius: 6px; }
 
 .logomini {
-  animation: 8s  alternate slideinmini;
+  animation: 6s infinite alternate slideinmini;
   text-align: left; }
 
 .copyright {
