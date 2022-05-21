@@ -121,7 +121,7 @@ h1 {
     color: map-get($colores,color-principal);
 }
 .img404 {
-    background-image: url("../imagenes/imagen404.jpg");
+    background-image: url("./imagenes/imagen404.jpg");
     background-size: cover;
     background-position: center;
     position: absolute; }
@@ -149,6 +149,6 @@ h1 {
   #sec404 .text404 h1 {
     font-size: 30px;
     padding-top: 230px;
-    background-image: url("../imagenes/imagen404.jpg");
+    background-image: url("./imagenes/imagen404.jpg");
     background-repeat: no-repeat;
     background-position: center 120px; }
