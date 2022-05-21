@@ -5,13 +5,50 @@
 .leyenda {
   margin-top: 2px; }
 
+h1 {
+  /* animation-duration: 7s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+  /* Todo lo anterior es igual */
+  animation: 7s  alternate slidein; }
+
+@keyframes slidein {
+  /*75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      } */
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@keyframes slideinmini {
+  /*75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      } */
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
 .header {
   background-image: linear-gradient(180deg, #ff7b00, yellow);
   position: sticky;
   top: 0;
   height: 150 px;
   font-size: 15px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  /* & a img{
+        animation: 7s  alternate slidein;
+    } */ }
   .header__menu li {
     transition: transform 1s; }
     .header__menu li:hover {
@@ -19,6 +56,10 @@
   .header__imagen {
     width: 100px;
     border-radius: 6px; }
+
+.logomini {
+  animation: 8s  alternate slideinmini;
+  text-align: left; }
 
 .copyright {
   background-image: linear-gradient(180deg, #ff7b00, yellow);
@@ -122,7 +163,12 @@
   height: 240px;
   margin-left: 4.5rem;
   object-fit: cover;
-  object-position: 50% 50%; }
+  object-position: 50% 50%;
+  transition: transform 1s;
+  /* .container {overflow:hidden;} */ }
+  .imagenPequenia:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
 
 .contacto {
   background-image: linear-gradient(180deg, #ff7b00, yellow);

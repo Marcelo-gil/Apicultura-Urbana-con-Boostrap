@@ -5,6 +5,51 @@
 .leyenda{
     margin-top: 2px;
 }
+h1 {
+    /* animation-duration: 7s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /* Todo lo anterior es igual */
+    animation: 7s  alternate slidein;
+  }
+  
+  @keyframes slidein {
+    /*75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      } */
+      
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  @keyframes slideinmini {
+    /*75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      } */
+      
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
 .header{
     background-image: $gradien;
     position: sticky;
@@ -22,6 +67,13 @@
         width: 100px;
         border-radius: 6px;
     }
+    /* & a img{
+        animation: 7s  alternate slidein;
+    } */
+}
+.logomini{
+    animation: 8s  alternate slideinmini;
+    text-align: left;
 }
 .copyright{
     @include barra_contacto(map-get($colores,color-terciario));

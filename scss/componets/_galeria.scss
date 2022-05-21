@@ -13,4 +13,7 @@
     margin-left: 4.5rem;
     object-fit: cover;
     object-position: 50% 50%;
+    transition:  transform 1s ;
+    &:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+    /* .container {overflow:hidden;} */
 }
